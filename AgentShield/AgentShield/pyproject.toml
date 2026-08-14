@@ -43,8 +43,8 @@ agentshield-run = "agentshield.run:main"
 agentshield-analyze = "agentshield.analyze:main"
 
 [project.urls]
-Homepage = "https://github.com/your-org/AgentShield"
-Issues = "https://github.com/your-org/AgentShield/issues"
+Homepage = "https://github.com/MuhammadSaeedAnwar/AgentShield"
+Issues = "https://github.com/MuhammadSaeedAnwar/AgentShield/issues"
 
 [tool.setuptools.packages.find]
 include = ["agentshield*"]
