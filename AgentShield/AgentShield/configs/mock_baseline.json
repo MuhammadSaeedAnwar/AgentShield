@@ -1,0 +1,13 @@
+{
+  "description": "Undefended baseline using the deterministic mock susceptibility simulator. Reproduces the 'defenses=none' condition of the committed reference run (results/example_mock_run).",
+  "model": "mock",
+  "model_name": "mock-gullible-v1",
+  "seed": 1337,
+  "trials": 3,
+  "defenses": "none",
+  "max_steps": 6,
+  "tool_provisioning": "minimal",
+  "dataset": "data/attacks.json",
+  "out": "results",
+  "keep_transcripts": true
+}

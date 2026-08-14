@@ -1,0 +1,18 @@
+# AgentShield requirements
+#
+# The core benchmark engine (agentshield.run) requires ONLY the Python standard
+# library (Python >= 3.10). The packages below are needed for optional features:
+#
+#   matplotlib -> charts produced by `python -m agentshield.analyze`
+#   pandas     -> optional tidy dataframe export in the analysis step
+#   pyyaml     -> YAML experiment configs in configs/ (JSON configs work without it)
+#   pytest     -> test suite in tests/
+#
+# If you install nothing at all, this still works:
+#   python -m agentshield.run --model mock --dataset data/attacks.json
+#   python -m agentshield.analyze results/<run>.json --no-charts
+
+matplotlib>=3.6
+pandas>=1.5
+pyyaml>=6.0
+pytest>=7.2

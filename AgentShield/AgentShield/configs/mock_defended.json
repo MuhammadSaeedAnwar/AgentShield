@@ -1,0 +1,13 @@
+{
+  "description": "Fully defended condition (all five defenses) using the deterministic mock simulator. Reproduces the 'defenses=all' condition of the committed reference run (results/example_mock_run). Against the mock, deterministic defenses (authorization, confirmation, output_validation) drive ASR to 0%; the prompt-level defenses are modelling assumptions only (see docs/mock_model.md).",
+  "model": "mock",
+  "model_name": "mock-gullible-v1",
+  "seed": 1337,
+  "trials": 3,
+  "defenses": "all",
+  "max_steps": 6,
+  "tool_provisioning": "minimal",
+  "dataset": "data/attacks.json",
+  "out": "results",
+  "keep_transcripts": true
+}
