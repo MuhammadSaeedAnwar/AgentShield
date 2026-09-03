@@ -1,1 +1,1 @@
-# AgentShield
+# root README placeholder (already set)
