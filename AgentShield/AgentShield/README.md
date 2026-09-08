@@ -197,7 +197,6 @@ limitations: `docs/defenses.md`.
 ## 10. Installation
 
 ```bash
-cd AgentShield
 python -m venv .venv && source .venv/bin/activate   # optional
 pip install -e .                                    # installs agentshield-run / agentshield-analyze
 
