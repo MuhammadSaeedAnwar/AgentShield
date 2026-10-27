@@ -1,0 +1,23 @@
+"""AgentShield public package API.
+
+This module exposes the stable interfaces used by the benchmark runner, config,
+and model adapters without leaking internal implementation details.
+"""
+
+from __future__ import annotations
+
+from .config import RunConfig
+from .models import Message, ModelAdapter, ModelResponse, ToolCall, ToolSpec, build_model
+
+__version__ = "0.1.0"
+
+__all__ = [
+    "__version__",
+    "RunConfig",
+    "Message",
+    "ModelAdapter",
+    "ModelResponse",
+    "ToolCall",
+    "ToolSpec",
+    "build_model",
+]
