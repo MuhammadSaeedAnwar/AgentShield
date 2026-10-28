@@ -1,4 +1,4 @@
-"""Public package import surface for the AgentShield agents package."""
+"""Public package import surface for AgentShield agents."""
 
 from __future__ import annotations
 
